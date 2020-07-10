@@ -8,7 +8,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <h1>random_color_picker</h1>
-        {/* <Random /> */}
+        <Random />
       </div>
     );
   }
