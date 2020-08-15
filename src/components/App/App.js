@@ -1,7 +1,6 @@
-import React from 'react';
-import logo from '../../logo.svg';
-import './App.css';
-import Random from '../Random/Random';
+import React from "react";
+import "./App.css";
+import Random from "../Random/Random";
 
 class App extends React.Component {
   render() {
