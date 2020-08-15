@@ -1,15 +1,14 @@
-import React from 'react';
+import React from "react";
 
-class Button extends React.Component {
-	render() {
-		return (
-			<button 
-				className={ this.props.light ? 'light-button' : 'dark-button' } onClick
-                onClick={this.props.onClick} >
-				Refresh
-			</button>
-		);
-	}
-}
+const Button = (props) => {
+  return (
+    <button
+      className={props.light ? "light-button" : "dark-button"}
+      onClick={props.onClick}
+    >
+      Refresh
+    </button>
+  );
+};
 
-export default Button
+export default Button;
